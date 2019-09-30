@@ -102,7 +102,7 @@ Since the exploration strategy is biased towards faster interpreters, most of th
 Histogram of the execution times of the programs relatively to the baselines. The red dashed line represents the average execution time of the program on a Truffle-less implementation in the GraalVM JVM. The green dotted line represents the average execution time of the same Truffle-less implementation on the Hotspot JVM, relatively to the GraalVM JVM execution time.
 </i>
 </div>
-![](./histograms_minijava.svg)
+![](histograms_minijava.svg)
 
 Through this approach we are able to identify fast combinations of <span class="texttt">dispatch</span> use in the interpreter for each program.
 While this approach is relevant to quickly specialize the interpreter for a single program, generalizing the approach to find a universal fastest interpreter over all programs is left as future work.
@@ -139,7 +139,7 @@ This process repeats until all the buffers are empty.
 System of finite state machines.
 </i>
 </div>
-![](./model_system_of_fsms.png)
+![](model_system_of_fsms.png)
 
 ## Polymorphic Inline Cache implementation
 
