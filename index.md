@@ -101,8 +101,8 @@ Through this approach we are able to identify fast combinations of <span class="
 While this approach is relevant to quickly specialize the interpreter for a single program, generalizing the approach to find a universal fastest interpreter over all programs is left as future work.
 
 The raw data are also available:
-- Python datastructure of the measurements: [raw_data.py](raw_data.py)
-- Python Notebook with the figures generation logic: [notebook.ipynb](notebook.ipynb)
+- Python datastructure of the measurements: [raw_data.py](https://manuelleduc.github.io/ecmfa-2020/raw_data.py)
+- Python Notebook with the figures generation logic: [notebook.ipynb](https://manuelleduc.github.io/ecmfa-2020/notebook.ipynb)
 
 [^1]: Jenetics: [http://jenetics.io/](http://jenetics.io/)
 
